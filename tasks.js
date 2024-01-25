@@ -16,7 +16,7 @@ console.log(`Общее количество рукопожатий для 10 ч
 
 // Задачка 3
 const uniqueWords = (list) => {
-  return list.split(",").filter((word, index, arr) => word && arr.indexOf(word) ===  index)
+  return list.split(",").filter((word, index, arr) => word && arr.indexOf(word) ===  index).join(",")
 } 
 
 console.log(uniqueWords("кошка,собака,лош6адь,корова,кошка,пёс,кошка,слон,"))
